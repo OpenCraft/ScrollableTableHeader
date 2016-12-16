@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ScrollableTableHeader'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ScrollableTableHeader.'
+  s.summary          = 'Lib to create a header that scroll with tableview.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+The lib create a header that scrolls when user scrolls the tableviews. Its suports more than one tableviews
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/ScrollableTableHeader'
+  s.homepage         = 'https://github.com/cristianDRM/ScrollableTableHeader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cristianDRM' => 'cristianmadridd@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/ScrollableTableHeader.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/cristianDRM/ScrollableTableHeader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

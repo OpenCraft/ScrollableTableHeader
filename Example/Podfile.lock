@@ -1,0 +1,16 @@
+PODS:
+  - ScrollableTableHeader (0.1.0)
+
+DEPENDENCIES:
+  - ScrollableTableHeader (from `../`)
+
+EXTERNAL SOURCES:
+  ScrollableTableHeader:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ScrollableTableHeader: e98e8546ec039db83d9cbf003df9e083833ddee2
+
+PODFILE CHECKSUM: 74d1c4d5a0fe52ec4650e766c9932908aaca5c62
+
+COCOAPODS: 1.1.1

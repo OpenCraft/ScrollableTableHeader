@@ -13,14 +13,14 @@
 
 /* Begin PBXFileReference section */
 		199AA14AFFC31490B0BC9788 /* Pods_ScrollableTableHeader_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ScrollableTableHeader_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4795A4A27A4B6635E7ECA8B2 /* ScrollableTableHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ScrollableTableHeader.podspec; path = ../ScrollableTableHeader.podspec; sourceTree = "<group>"; };
+		4795A4A27A4B6635E7ECA8B2 /* ScrollableTableHeader.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ScrollableTableHeader.podspec; path = ../ScrollableTableHeader.podspec; sourceTree = "<group>"; };
 		4E10469AF468AE9FB4EADCA1 /* Pods-ScrollableTableHeader_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTableHeader_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollableTableHeader_Tests/Pods-ScrollableTableHeader_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ScrollableTableHeader_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollableTableHeader_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		E3B494E03E5002DF5FCB2DEC /* Pods-ScrollableTableHeader_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollableTableHeader_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollableTableHeader_Tests/Pods-ScrollableTableHeader_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF4532C8F0C652B8533768A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F58C5B0A7605521BDD2A0B20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EF4532C8F0C652B8533768A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F58C5B0A7605521BDD2A0B20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,11 +131,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 739T8Q7B75;
+						LastSwiftMigration = 0810;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -314,6 +313,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E3B494E03E5002DF5FCB2DEC /* Pods-ScrollableTableHeader_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 739T8Q7B75;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -326,6 +326,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -333,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4E10469AF468AE9FB4EADCA1 /* Pods-ScrollableTableHeader_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 739T8Q7B75;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -341,6 +343,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

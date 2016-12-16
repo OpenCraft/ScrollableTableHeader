@@ -1,0 +1,6 @@
+framework module ScrollableTableHeader {
+  umbrella header "ScrollableTableHeader-umbrella.h"
+
+  export *
+  module * { export * }
+}
