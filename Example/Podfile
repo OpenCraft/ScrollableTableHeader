@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ScrollableTableHeader_Tests' do
+  pod 'ScrollableTableHeader', :path => '../'
+  
+  
+end
