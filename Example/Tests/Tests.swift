@@ -15,7 +15,7 @@ class Tests: XCTestCase {
     }
     
     func testExample() {
-        let test = ScrollableHeader()
+        
     }
     
     func testPerformanceExample() {
