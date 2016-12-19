@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 The lib create a header that scrolls when user scrolls the tableviews. Its suports more than one tableviews
                        DESC
 
-  s.homepage         = 'https://github.com/cristianDRM/ScrollableTableHeader'
+  s.homepage         = 'https://github.com/opencraft/ScrollableTableHeader'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cristianDRM' => 'cristianmadridd@gmail.com' }
-  s.source           = { :git => 'https://github.com/cristianDRM/ScrollableTableHeader.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/opencraft/ScrollableTableHeader.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
