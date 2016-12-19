@@ -11,8 +11,9 @@ import Foundation
 public class ScrollableHeader {
     
     let constraintHeight: NSLayoutConstraint
-    var headerHeightRange: ClosedRange<Int>
-    var viewControllers: [ScrollableHeaderTableViewController]! = [] {
+    let headerHeightRange: ClosedRange<Int>
+    
+    public var viewControllers: [ScrollableHeaderTableViewController]! = [] {
         didSet {
             viewControllers.last?.scrollViewNotifier = self
             viewControllers.last?.scrollViewDataSource = self

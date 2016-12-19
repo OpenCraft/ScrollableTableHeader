@@ -1,5 +1,5 @@
 PODS:
-  - ScrollableTableHeader (0.1.2)
+  - ScrollableTableHeader (0.1.3)
 
 DEPENDENCIES:
   - ScrollableTableHeader (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ScrollableTableHeader: b49ed25a4624bd6ee8a215fba26e3a11f6e3053e
+  ScrollableTableHeader: 5a46721ad66d0c22e27890d9d0f7f28ce6c05a50
 
 PODFILE CHECKSUM: 1db397f7e9c3f32f525efaecfd75090c36f1a64a
 

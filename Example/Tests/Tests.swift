@@ -16,6 +16,7 @@ class Tests: XCTestCase {
     
     func testExample() {
         let scrollableHeader = ScrollableHeader(constraintHeightHeader: NSLayoutConstraint(), headerHeightRange: 0...1)
+        
     }
     
     func testPerformanceExample() {
