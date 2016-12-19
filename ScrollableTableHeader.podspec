@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ScrollableTableHeader'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Lib to create a header that scroll with tableview.'
 
 # This description is used to generate tags and improve search results.
