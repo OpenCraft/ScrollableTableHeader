@@ -1,6 +1,5 @@
 use_frameworks!
+
 target 'ScrollableTableHeader_Tests' do
-  pod cast, :path => '../'
-  
-  
+  pod "ScrollableTableHeader", :path => '../'
 end

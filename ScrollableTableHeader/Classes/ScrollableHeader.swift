@@ -19,7 +19,7 @@ public class ScrollableHeader {
         }
     }
     
-    init(constraintHeightHeader: NSLayoutConstraint, headerHeightRange: ClosedRange<Int>) {
+    public init(constraintHeightHeader: NSLayoutConstraint, headerHeightRange: ClosedRange<Int>) {
         self.constraintHeight = constraintHeightHeader
         self.headerHeightRange = headerHeightRange
     }
