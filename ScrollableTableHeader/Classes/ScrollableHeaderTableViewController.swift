@@ -6,12 +6,12 @@
 //  Copyright © 2016 Porto Seguro. All rights reserved.
 //
 
-public class ScrollableHeaderTableViewController: UITableViewController {
+open class ScrollableHeaderTableViewController: UITableViewController {
     
     weak var scrollViewNotifier: ScrollableHeaderNotifier!
     weak var scrollViewDataSource: ScrollableHeaderDataSource!
     
-    override public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+    override open func scrollViewDidScroll(_ scrollView: UIScrollView) {
         self.didScroll(scrollView: scrollView)
         
         if scrollView.contentOffset.y == 0 {
